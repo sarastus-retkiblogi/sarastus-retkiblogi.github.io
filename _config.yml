@@ -1,0 +1,72 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: Sarastus
+email: jessepat84@gmail.com
+description: > # this means to ignore newlines until "url:"
+  Retkiblogi / Trekking Blog
+url: https://sarastus-retkiblogi.github.io
+baseurl: 
+last_updated: true
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: Kirjoitukset / Writings
+blog_description: Vaellustarinoita ja kuvia / Trip accounts and photos
+
+# Pagination
+#paginate: 4
+permalink: /blog/:year/:title/
+#paginate_path: /blog/page:num/
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+
+# Comments
+# disqus_shortname:
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings 
+markdown: kramdown
+highlighter: rouge
+
+# Includes
+include: ['_pages']
+
+# Gems
+plugins:
+#    - jekyll-paginate
+#    - jemoji
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"
