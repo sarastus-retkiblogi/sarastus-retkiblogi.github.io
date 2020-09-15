@@ -5,7 +5,8 @@ title: Sarastus
 description: Retkiblogi | Trekking Blog
 
 profile:
-  align: right
+  align: center
+  image: prof_pic.jpg
 
 news: true
 social: false
@@ -21,7 +22,7 @@ Tämän sivuston tavoitteena on toimia eräänlaisena arkistona jonne latailen a
 
 _In English:_
 
-The aim of this page is to serve as an archive of sorts, containing my musings and photos from different trekking trips. I may also publish blog entries on related topics, such as reviews of trekking gear I've used. All contents and opinions are entirely personal!
+The aim of this page is to serve as an archive of sorts, containing my musings and photos from different trekking trips. I may also publish blog entries on related topics, such as reviews of trekking gear I've used. All contents and opinions are entirely personal.
 
 **Kuka olen? Who am I?**
 
