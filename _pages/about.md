@@ -4,12 +4,6 @@ permalink: /
 title: Sarastus
 description: Trekking Blog | Retkiblogi
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  address: >
-      <p> Bog Myrtle | Suopursu </p>
-
 news: true
 social: false
 ---
